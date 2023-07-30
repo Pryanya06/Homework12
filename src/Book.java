@@ -3,19 +3,10 @@ public class Book {
     private Author author;
     private int publishingYear;
 
-    public Book(String title) {
+    public Book(String title,Author author,int publishingYear) {
         this.title = title;
-    }
-
-    public Book(Author author) {
         this.author = author;
-    }
-
-    public Book(int publishingYear) {
         this.publishingYear = publishingYear;
-    }
-
-    public Book(String родственныеДуши, Author henry, int i) {
     }
 
     public String getTitle() {
